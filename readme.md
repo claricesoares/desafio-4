@@ -14,14 +14,7 @@ python -m venv venv
 ```bash
 ./venv/scripts/activate
 ```
-3. Crie um arquivo chamado **requirements.txt**. Dentro dele coloque o texto abaixo:
-
-```text
-flask
-python-dotenv
-requests
-```
-4. Salve o arquivo e faça a instalação das dependências
+3. Faça a instalação das dependências
 
 ```bash
 pip install -r requirements.txt
